@@ -12,4 +12,24 @@
 body{
     font-family: 'Outfit' , sans-serif;
     background: var(--bg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background: var(--white);
+    max-width: 320px;
+    padding: 16px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.08);
 }
