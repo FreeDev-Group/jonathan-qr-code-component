@@ -1,0 +1,15 @@
+:root{
+  --white: hsl(0, 0%, 100%); 
+  --bg: hsl(212, 45%, 89%); 
+  --text: hsl(216, 15%, 48%); 
+  --title: hsl(218, 44%, 22%); 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit' , sans-serif;
+    background: var(--bg);
+}
