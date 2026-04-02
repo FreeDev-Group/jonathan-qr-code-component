@@ -1,0 +1,74 @@
+:root{
+  --white: hsl(0, 0%, 100%); 
+  --bg: hsl(212, 45%, 89%); 
+  --text: hsl(216, 15%, 48%); 
+  --title: hsl(218, 44%, 22%); 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit' , sans-serif;
+    background: var(--bg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background: var(--white);
+    max-width: 320px;
+    padding: 16px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.08);
+}
+.card{
+    background: var(--white);
+    max-width: 320px;
+    padding: 16px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.08);
+}
+.qr-image{
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+.card h1{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--title);
+    margin-bottom: 15px;
+}
+.card p{
+    font-size: 15px;
+    color: var(--text);
+    line-height: 1.5;
+    padding: 0 15px 20px;
+}
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    margin: 20px 0;
+}
+.attribution a{
+    color: inherit;
+    text-decoration: none;
+}
+@media (max-width:375px){
+    .card{
+        width: 90%;
+    }
+}
