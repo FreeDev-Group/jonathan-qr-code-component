@@ -30,7 +30,7 @@ This is my solution to a QR code component project. The goal was to build a clea
 ## Links
 
 - Solution URL: 
-- Live Site URL: 
+- Live Site URL: https://freedev-group.github.io/jonathan-qr-code-component/
 
 ---
 
