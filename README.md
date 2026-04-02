@@ -29,7 +29,7 @@ This is my solution to a QR code component project. The goal was to build a clea
 
 ## Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/jonathan-qr-code-component-l4X81WcuQT
 - Live Site URL: https://freedev-group.github.io/jonathan-qr-code-component/
 
 ---
